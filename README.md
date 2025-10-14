@@ -20,8 +20,6 @@ Data
 - **Size:** 569 samples, 30 numeric features.
 - **License/Use:** Educational/research use via scikit‑learn.
 
-> Note: The notebook **simulates small missingness** to demonstrate data cleaning and imputation for grading purposes.
-
 Methods
 - **EDA:** Descriptives, class balance, correlation heatmap, outlier handling (winsorization).  
 - **Models:** Logistic Regression, SVC (RBF), Random Forest.  
@@ -29,13 +27,7 @@ Methods
 - **Metrics:** Accuracy, Precision, Recall, F1, ROC‑AUC (primary).  
 - **Fairness/Imbalance:** Used `class_weight='balanced'` where appropriate.
 
-## 📜 Citation
+Citation
 - Wolberg, W. H., Street, W. N., &amp; Mangasarian, O. L. (1995). Breast Cancer Wisconsin (Diagnostic) Data Set. UCI Machine Learning Repository.
 - scikit-learn: Pedregosa et al. (2011). *Journal of Machine Learning Research*.
 
-## 📁 GitHub Tips
-- Keep large files (data/videos) **out** of git; link them instead.
-- Consider enabling notebook diffs with tools like ReviewNB.
-
----
-*Prepared for the Supervised Learning Final Project.*
